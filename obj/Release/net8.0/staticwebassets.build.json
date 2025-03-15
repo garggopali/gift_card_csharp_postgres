@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mB7xb7t/+82p+UjdrULsqa/4U1/8IRYwjjHc9cDAl00=",
+  "Source": "gift_card_csharp_postgres",
+  "BasePath": "_content/gift_card_csharp_postgres",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

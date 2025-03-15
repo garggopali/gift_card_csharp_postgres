@@ -1,0 +1,6 @@
+@gift_card_csharp_postgres_HostAddress = http://localhost:5288
+
+GET {{gift_card_csharp_postgres_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

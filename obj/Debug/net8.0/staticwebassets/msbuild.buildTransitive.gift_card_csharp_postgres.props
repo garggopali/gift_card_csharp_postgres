@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\gift_card_csharp_postgres.props" />
+</Project>

@@ -1,0 +1,25 @@
+﻿version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5288"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=localhost;Port=5432;Database=giftcarddbcsharp;Username=postgres;Password=postgres
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: giftcarddbcsharp
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
